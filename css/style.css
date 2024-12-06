@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 98.5vw;
+    height: auto;
+}
+
+/* header, nav and footer */
+header, footer{
+    height: 70px;
+    width: 98.5vw;
+    background-color: #FBFBFB;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#projects-header{
+    background-color: #010101;
+}
+
+footer{
+    background-color: #ACACAC;
+}
+
+nav ul{
+    width: 93.5vw;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: larger;
+}
+
+nav ul li a{
+    text-decoration: none;
+    border-radius: 20px;
+    color: #ACACAC;
+    padding: 10px 16px;
+    display: block;
+}
+
+footer nav ul li a, .nav-black{
+    color: #FBFBFB;
+}
+
+.nav-black:hover{
+    background-color: #ACACAC;
+    color: #010101;
+}
+
+
+footer nav ul li a:hover{
+    color: #ACACAC;
+    background-color: #FBFBFB;
+}
+
+nav ul li a:hover{
+    background-color: #ACACAC;
+    color: #fbfbfb;
+}
+
+/* text */
+.font-serif{
+    font-family: "Instrument Serif", serif;
+}
+
+h1{
+    font-size: 140px;
+    font-weight: 400;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.projects-title h1{
+    color: #FBFBFB;
+    font-size: 70px;
+    display: flex;
+    padding-top: 80px;    
+}
+
+.project-text1{
+    margin-right: -40px;
+}
+.project-text2{
+    margin-left: -40px;
+}
+
+.contact-title{
+    color: #FBFBFB;
+    font-size: 80px;
+    margin-top: 80px;
+}
+
+.contact-right{
+    color: #010101;
+    /* align-self: center; */
+    padding-left: 1.5vw;
+    margin-bottom: 20px;
+}
+
+.contact-p{
+    margin-left: 2vw;
+    font-weight: 600;
+}
+
+
+/* images */
+.img-logo{
+    width: 5vw;
+}
+
+#img-home-bg{
+    width: 98.5vw;
+}
+
+#arrow-icon{
+    fill: #fbfbfb;
+    transform: rotate(90deg);
+    width: 1vw;
+}
+
+
+.contact-icons{
+    width: 4vw;
+    height: 40px;
+    align-self: flex-end;
+    margin: 10px;
+}
+
+.contact-icons:hover{
+    background-color: #010101;
+    border-radius: 20px;
+    transform: scale(1.1);
+  transition: all 0.5s;
+  padding: 7%;
+  
+}
+.contact-img{
+    width: 10vw;
+    height: 120px;
+}
+
+/* pages */
+#projects{
+    background: rgb(221,124,160);
+background: radial-gradient(ellipse, rgba(221,124,160,1) 0%, rgba(1,1,1,1) 50%);
+height: auto;
+margin-bottom: -38px;
+justify-items: center;
+}
+
+#home{
+    background-image: url("../img/background.png");
+    background-size: 100% 100%;
+    height: 560px;
+
+}
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    height: 560px;
+
+}
+
+.contact{
+    height: 107%;
+    display: flex;
+    justify-content: center;
+}
+
+.c-left{
+    background-color: #010101;
+    width: 40vw;
+}
+
+.c-right{
+    width: 58.5vw;
+    background-image: url("../img/contact-bg-final.png");
+    background-size: 100% 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 5vw;
+}
+
+/* textfields */
+#home-page{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5% 20%;
+}
+
+/* divs for objects, layout or remaining fields */
+#footer-div{
+    width: 10vw;
+    height: 38px;
+    border-radius: 50px 50px 0px 0px;
+    background-color: #ACACAC;
+    margin-left: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    position: sticky;
+}
+
+#projects-div{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+#test1, #test2, #test3, #test4 {
+    background-color: #DD7CA0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px #010101;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FBFBFB;
+   
+}
+
+#test1 {
+    align-self: flex-start;
+    width: 22vw;
+    height: 120px;
+    align-items: flex-end;
+}
+
+#test2{
+    align-self: flex-end;
+    width: 18vw;
+    height: 170px;
+    align-items: flex-start;
+
+}
+
+#test3{
+    align-self: flex-start;
+    width: 18vw;
+    height: 130px;
+    align-items: flex-end;
+
+}
+
+#test4{
+    align-self: flex-end;
+    width: 27vw;
+    height: 160px;
+    align-items: flex-start;
+
+}
+
+.contact-layout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
