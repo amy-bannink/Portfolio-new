@@ -62,7 +62,15 @@ nav ul li a:hover{
     color: #fbfbfb;
 }
 
-/* text */
+/* handig veel gebruikt */
+.flex-c{
+    display: flex;
+    flex-direction: column;
+}
+.flex-r{
+    display: flex;
+}
+
 .font-serif{
     font-family: "Instrument Serif", serif;
 }
@@ -70,6 +78,11 @@ nav ul li a:hover{
 h1{
     font-size: 140px;
     font-weight: 400;
+    /* veranderen naar 80px  */
+}
+
+h2{
+    font-size: 40px;
 }
 
 p{
@@ -77,8 +90,42 @@ p{
     font-weight: 500;
 }
 
-.projects-title h1{
+.border-radius{
+    border-radius: 20px;
+}
+
+.bg-b{
+    background-color: #010101;
+}
+.bg-w{
+    background-color: #FBFBFB;
+}
+.bg-g{
+    background-color: #ACACAC;
+}
+.bg-p{
+    background-color: #DD7CA0;
+}
+.bg-y{
+    background-color: #FACF0F;
+}
+
+.t-w{
     color: #FBFBFB;
+}
+
+.t-b{
+    color: #010101;
+}
+
+.t-g{
+    color: #ACACAC;
+}
+
+/* text */
+
+
+.projects-title h1{
     font-size: 70px;
     display: flex;
     padding-top: 80px;    
@@ -92,13 +139,11 @@ p{
 }
 
 .contact-title{
-    color: #FBFBFB;
     font-size: 80px;
     margin-top: 80px;
 }
 
 .contact-right{
-    color: #010101;
     /* align-self: center; */
     padding-left: 1.5vw;
     margin-bottom: 20px;
@@ -107,6 +152,14 @@ p{
 .contact-p{
     margin-left: 2vw;
     font-weight: 600;
+}
+
+#about-left h1{
+    font-size: 80px;
+}
+
+.avatar-subtext{
+    margin: 5px;
 }
 
 
@@ -125,20 +178,19 @@ p{
     width: 1vw;
 }
 
-
 .contact-icons{
     width: 4vw;
     height: 40px;
     align-self: flex-end;
-    margin: 10px;
+    /* margin: 20px; */
+    padding: 15%;
+
 }
 
 .contact-icons:hover{
     background-color: #010101;
-    border-radius: 20px;
     transform: scale(1.1);
   transition: all 0.5s;
-  padding: 7%;
   
 }
 .contact-img{
@@ -146,6 +198,14 @@ p{
     height: 120px;
 }
 
+#avatar-img{
+    width: 15vw;
+}
+
+#location-icon{
+    width: 1.5vw;
+    margin-right: 10px;
+}
 /* pages */
 #projects{
     background: rgb(221,124,160);
@@ -159,24 +219,19 @@ justify-items: center;
     background-image: url("../img/background.png");
     background-size: 100% 100%;
     height: 560px;
-
 }
 
-#contact{
-    display: flex;
-    flex-direction: row;
+.contact-page{
     height: 560px;
-
 }
 
 .contact{
     height: 107%;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
 }
 
 .c-left{
-    background-color: #010101;
     width: 40vw;
 }
 
@@ -184,16 +239,36 @@ justify-items: center;
     width: 58.5vw;
     background-image: url("../img/contact-bg-final.png");
     background-size: 100% 100%;
-    flex-direction: column;
     justify-content: flex-start;
     padding-left: 5vw;
 }
 
-/* textfields */
-#home-page{
-    width: 35vw;
+.about-me-top{
+    justify-content: center;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+/* #about-me{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+} */
+
+.about-me-body{
+    width: 98vw;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.about-me-bottom{
+    width: 37vw;
+    gap: 10px;
+}
+
+/* textfields */
+.home-page{
+    width: 35vw;
     justify-content: center;
     align-items: flex-start;
     padding: 5% 20%;
@@ -204,34 +279,24 @@ justify-items: center;
     width: 10vw;
     height: 38px;
     border-radius: 50px 50px 0px 0px;
-    background-color: #ACACAC;
     margin-left: 45vw;
-    display: flex;
     justify-content: center;
     align-items: center;
     bottom: 0px;
     position: sticky;
 }
 
-#projects-div{
-    display: flex;
-    flex-direction: column;
+.projects-div{
     width: 40vw;
     padding-top: 45px;
     padding-bottom: 45px;
 }
 
 #test1, #test2, #test3, #test4 {
-    background-color: #DD7CA0;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-radius: 20px;
     box-shadow: 10px 10px #010101;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    color: #FBFBFB;
-   
 }
 
 #test1 {
@@ -246,7 +311,6 @@ justify-items: center;
     width: 18vw;
     height: 170px;
     align-items: flex-start;
-
 }
 
 #test3{
@@ -254,7 +318,6 @@ justify-items: center;
     width: 18vw;
     height: 130px;
     align-items: flex-end;
-
 }
 
 #test4{
@@ -262,13 +325,40 @@ justify-items: center;
     width: 27vw;
     height: 160px;
     align-items: flex-start;
-
 }
 
 .contact-layout{
-    display: flex;
-    flex-direction: row;
     align-items: center;
 }
 
+#about-right{
+    width: 30vw;
+    align-items: center;
+}
 
+#about-left{
+    width: 40vw;
+    justify-content: center;
+}
+
+#location-div{
+    margin-top: 20px;
+}
+
+.about-div{
+    width: 30vw;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.education, .hobbies{
+    border-style: solid;
+    border-width: 5px;
+    box-sizing: border-box;
+}
+.education{
+    border-color: #FACF0F;
+}
+.hobbies{
+border-color: #DD7CA0;
+}
