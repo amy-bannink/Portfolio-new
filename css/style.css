@@ -42,6 +42,7 @@ nav ul li a{
     display: block;
 }
 
+
 footer nav ul li a, .nav-black{
     color: #FBFBFB;
 }
@@ -133,9 +134,26 @@ p{
 
 .project-text1{
     margin-right: -40px;
+    text-decoration: none;
+
 }
 .project-text2{
     margin-left: -40px;
+}
+
+.cw-a{
+    text-decoration: none;
+    padding-left: 15%;
+}
+
+.cw-a:hover{
+    border-radius: 20px;
+    transform: scale(1.5);
+    /* color:  #010101; */
+    transition: all 0.5s;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #010101;
 }
 
 .contact-title{
@@ -160,6 +178,10 @@ p{
 
 .avatar-subtext{
     margin: 5px;
+}
+
+.cw-text{
+    font-weight: 600;
 }
 
 
@@ -213,6 +235,7 @@ background: radial-gradient(ellipse, rgba(221,124,160,1) 0%, rgba(1,1,1,1) 50%);
 height: auto;
 margin-bottom: -38px;
 justify-items: center;
+padding-bottom: 100px;
 }
 
 #home{
@@ -249,11 +272,6 @@ justify-items: center;
     margin-top: 80px;
 }
 
-/* #about-me{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
 
 .about-me-body{
     width: 98vw;
@@ -264,6 +282,10 @@ justify-items: center;
 .about-me-bottom{
     width: 37vw;
     gap: 10px;
+}
+
+.margin-bottom{
+    margin-bottom: 80px;
 }
 
 /* textfields */
@@ -292,39 +314,71 @@ justify-items: center;
     padding-bottom: 45px;
 }
 
-#test1, #test2, #test3, #test4 {
+#test1, #test2, #test3, #test4, #cw1, #cw2, #cw3, #cw4, #cw5 {
     margin-top: 10px;
     margin-bottom: 10px;
     box-shadow: 10px 10px #010101;
     justify-content: center;
 }
 
-#test1 {
+#test1, #cw1, #cw5 {
     align-self: flex-start;
     width: 22vw;
     height: 120px;
     align-items: flex-end;
 }
 
-#test2{
+#cw1, #cw2, #cw3, #cw4, #cw5{
+    background-size: 100%;
+}
+
+/* #cw1 p, #cw2 p, #cw3 p, #cw4 p, #cw5 p{
+    text-decoration: none;
+} */
+
+#cw1:hover, #cw2:hover, #cw3:hover, #cw4:hover, #cw5:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+#cw1{
+    background-image: url("/img/cw1.png");
+}
+
+#cw5{
+    background-image: url("/img/cw5.png");
+}
+#test2, #cw2 {
     align-self: flex-end;
     width: 18vw;
     height: 170px;
     align-items: flex-start;
 }
 
-#test3{
+#cw2{
+    background-image: url("/img/cw2.png");
+}
+
+#test3, #cw3{
     align-self: flex-start;
     width: 18vw;
     height: 130px;
     align-items: flex-end;
 }
 
-#test4{
+#cw3{
+    background-image: url("/img/cw3.png");
+}
+
+#test4, #cw4{
     align-self: flex-end;
     width: 27vw;
     height: 160px;
     align-items: flex-start;
+}
+
+#cw4{
+    background-image: url("/img/cw4.png");
 }
 
 .contact-layout{
