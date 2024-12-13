@@ -123,6 +123,11 @@ p{
     color: #ACACAC;
 }
 
+.padding-bottom{
+    padding-bottom: 100px;
+
+}
+
 /* text */
 
 
@@ -228,8 +233,13 @@ p{
     width: 1.5vw;
     margin-right: 10px;
 }
+
+/* .project-img{
+    width: 22vw;
+    height: 120px;
+} */
 /* pages */
-#projects{
+.projects{
     background: rgb(221,124,160);
 background: radial-gradient(ellipse, rgba(221,124,160,1) 0%, rgba(1,1,1,1) 50%);
 height: auto;
