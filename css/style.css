@@ -190,6 +190,15 @@ p{
 }
 
 
+.ul-left{
+    margin-left: 1vw;    
+}
+
+.ul-right{
+    margin-left: 2.5vw;
+}
+
+
 /* images */
 .img-logo{
     width: 5vw;
