@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+  <title>Contact</title>
+</head>
+<body>
+    <!-- Header with logo, navigation links, and login button -->
+    <header>
+        <img src="img/pinkgoose-logo.png" alt="logo" id="img-logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#learn">Learn</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="index.html">
+            <div class="button login">
+                Login
+            </div>
+        </a>
+    </header>
+    <main>
+        
+        <section>
+            <!--Section with contact information containing a title, text and icons-->
+            <div class="stars-title idea">
+                <div class="title-bubble idea-title">
+                <h2>What's your GOOSE idea?</h2>
+                <p id="idea-subtitle">Let's chat and see how we can help</p>
+                </div>
+            </div>
+            <div id="chat-buttons">
+                <div id="telegram">
+                    <div>
+                    <img src="img/icon/telegram.png" alt="telegram icon" class="chat-icon">
+                    </div>
+                    <div class="chat-buttons-text">
+                    <p class="chat-title telegram-title">Telegram</p>
+                    <p class="chat-text telegram-text">@superdao_team</p>
+                    </div>
+                </div>
+                <div id="email">
+                    <div>
+                        <img src="img/icon/email.png" alt="email icon" class="chat-icon">
+                    </div>
+                    <div class="chat-buttons-text">
+                        <p class="chat-title email-title">Email</p>
+                        <p class="chat-text email-text">hello@superdao.co</p>    
+                    </div>
+                    </div>
+            </div>
+            <!-- Form for users to submit their contact information and message containing a title, form, input, textarea, select and submit button -->
+
+            <div id="contact-box">
+                <h2 class="title-bubble weekly-digest">Send a post Goose</h2>
+                <form id="contact-form">
+                    <input type="email" placeholder="Your email" class="input-contact">
+                    <input type="name" placeholder="Your name" class="input-contact">
+                    <textarea placeholder="Your message"></textarea>
+                    <select id="colors" name="colors" placeholder="Select">
+                        <option value=" " disabled selected hidden>Color of your goose</option>
+                        <option value="red">Red</option>
+                        <option value="white">White</option>
+                        <option value="blue">Blue</option>
+                        <option value="black">Black</option>
+                    </select>
+                    <input type="submit" value="Send" id="contact-submit">
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- Footer with additional links and social media icons -->
+    <footer>
+        <ul>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html">Jobs</a></li>
+            <li><a href="index.html">Legal</a></li>
+        </ul>
+    <div class="footer-icon">
+        <img src="img/icon/twitter-icon.png" alt="twitter icon" class="contact-icon">
+        <img src="img/icon/telegram-icon.png" alt="telegram icon" class="contact-icon">
+        <img src="img/icon/youtube-icon.png" alt="youtube icon" class="contact-icon">
+        <img src="img/icon/discord-icon.png" alt="discord icon" class="contact-icon">
+    </div>
+    </footer>
+</body>
+</html>

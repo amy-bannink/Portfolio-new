@@ -1,0 +1,726 @@
+/* Reset margins and padding, set default font for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'lato';
+}
+
+/* Set background color for main section */
+main {
+  background-color: #0A1117;
+}
+
+/* Center content in each section with flex */
+section {
+  width: 60vw;
+  margin: 0vh 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #0A1117;
+}
+
+/* Style the header to display logo, nav, and sticky position */
+header {
+  display: flex;
+  background-color: #0a1117;
+  height: 10vh;
+  width: 98, 9vw;
+  justify-content: space-evenly;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+/* Style for navigation list, links, and hover effects */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0a1117;
+  margin-right: 3vw;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a, footer ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 12px;
+  font-family: 'Montserrat' !important;
+  font-size: 80%;
+  font-weight: bold;
+}
+nav ul li a:hover, footer ul li a:hover, .contact-icon:hover {
+  background-color: #5c5c5c;
+}
+
+/* links don't have a blue line */
+a {
+  text-decoration: none;
+}
+
+/* Setting background-color, with, height and styling text for buttons and input submit elements */
+.button, #chat-buttons, #telegram, #email, #contact-submit, #subscribe-submit {
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Montserrat' !important;
+  background-color: #243241;
+  border-radius: 10px;
+  width: auto;
+  font-size: 70%;
+  padding: 10px 15px;
+  margin: 5px;
+}
+
+input[type="submit"], button{
+  border: none;
+}
+
+.button-bubble {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.group {
+  flex-wrap: wrap;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+#contact-submit {
+  width: 8vw;
+  position: relative;
+  left: 37%;
+}
+#subscribe-submit{
+  height: auto;
+  border-radius: 12px;
+  text-align: center;
+  width: 8vw;
+}
+
+#chat-buttons{
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.login {
+  color: white;
+  padding: 10px 15px;
+  font-weight: 600;
+  font-size: 65%;
+  margin: 0px;
+}
+
+.button:hover, #contact-submit:hover, #subscribe-submit:hover {
+  background-color: #5c5c5c;
+}
+
+.get-started, #contact-submit, #subscribe-submit {
+  color: #10151A;
+  background-color: #CEAAFF;
+  border-radius: 10px;
+  padding: 10px 5px;
+  font-size: 70%;
+  font-weight: bolder;
+  margin: 0px;
+}
+.get-started{
+  width: 9vw;
+}
+
+.get-started:hover {
+  background-color: #9d90ff;
+}
+
+.investment {
+  color: #FFB4D3;
+}
+
+.startup {
+  color: #FFC24C;
+}
+
+.service {
+  color: #D387F7;
+}
+
+.community {
+  color: #77E6FF;
+}
+
+.impact {
+  color: #23C9DE;
+}
+
+.defi {
+  color: #FF9E9E;
+}
+
+.more {
+  color: #707F8D;
+}
+
+.projects {
+  background-color: #FFB4D3;
+  color: #0A1117;
+  font-weight: 900;
+  margin-top: -50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 100px;
+}
+
+.projects:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+/* styling telegram and email boxes */
+.chat-title{
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.telegram-title, .telegram-text{
+  color: #4D3705;
+}
+
+.email-title, .email-text{
+  color: #40354B;
+}
+
+.telegram-text, .email-text{
+  margin-top: 3px;
+  font-family: 'Montserrat' !important;
+  font-size: 7px;
+}
+
+#telegram{
+  background-color: #FFC803;
+  display: flex;
+}
+
+#email{
+  background-color: #E2C1F9;
+  display: flex;
+}
+
+#telegram, #email{
+  padding: 7px;
+  padding-right: 25px;
+  border-radius: 8px;
+}
+
+.chat-buttons-text{
+  text-align: left;
+  margin-left: 10px;
+}
+
+/* Displaying the list items within the selection div underneath each other without bullets */
+.selection {
+  flex-direction: column;
+}
+.journey {
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 8px;
+  color: #37424D;
+  background-color: transparent;
+  font-size: 20px;
+  list-style-type: none;
+}
+.journey:hover {
+  transition: all 0.5s;
+  background-color: transparent;
+  color: #FFB4D3;
+  font-size: 150%;
+}
+
+/* works-with and profile divs */
+.works-with, #profiles {
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+
+/* lay-out for text fields*/
+.title-bubble {
+  color: white;
+}
+
+.intro {
+  margin-top: 70px;
+  margin-left: 32%;
+  margin-right: 32%;
+}
+
+.project {
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.designed-title {
+  margin-top: 20px;
+}
+
+.subtitle-bubble {
+  margin-top: 18px;
+  margin-left: 29%;
+  margin-right: 29%;
+  color: white;
+  font-family: 'Montserrat' !important;
+  font-size: 13px;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.works-with-text {
+  color: white;
+    font-family: 'Montserrat' !important;
+  font-weight: 900;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.stars-title {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -3%;
+}
+
+.designed {
+  margin-top: 50px;
+}
+
+.works {
+  margin-top: 70px;
+}
+
+.works-title {
+  margin-top: 20px;
+}
+
+.help-title {
+  margin-top: 100px;
+}
+
+.idea{
+  flex-direction: column;
+  align-items: center;
+  left: 0%
+}
+.idea-title{
+  margin-top: 45px;
+}
+#idea-subtitle{
+  color: #5A6C7E;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 13px;
+}
+#help-subtitle {
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  display: flex;
+  flex-wrap: wrap;
+  width: 25vw;
+  justify-content: center;
+  position: relative;
+  margin-top: 20px;
+  padding-bottom: 80px;
+}
+
+#weekly-digest-subtitle {
+  color: #9AAFC3;
+    font-family: 'Montserrat' !important;
+  padding: 25px;
+}
+
+.press {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  left: 17%
+}
+
+.press-title {
+  text-align: left;
+  margin-top:-10px;
+}
+
+.press-boxes-title, .podcast-boxes-title{
+  font-family: 'Montserrat' !important;
+  font-size: 10px;
+  font-weight: bolder;
+  text-align: left;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+.podcast-boxes-title{
+  color: white;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.title-blockworks, .title-techcrunch{
+  margin-top: 7px;
+}
+
+.press-boxes-text, .podcast-boxes-text{
+  font-family: 'Montserrat' !important;
+  font-size: 8px;
+  margin: 11px;
+  text-align: left;
+  margin-top: 5px;
+  opacity: 80%;
+}
+
+.podcast-boxes-text{
+  color: #E2E2E2;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.podcast{
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  left: -27%;
+}
+.podcast-title{
+  padding-top: 22px;
+}
+
+/* images */
+#img-arrow {
+  margin-top: 70px;
+  width: 1vw;
+}
+
+#img-logo {
+  width: 12vw;
+  height: auto;
+}
+
+.img-stars{
+  width: 2vw;
+  height: auto;
+  position: absolute;
+}
+.project-stars {
+  width: 4vw;
+  position: relative;
+  left: -15%;
+}
+
+.designed-stars {
+  right: -30%;
+  width: 3vw;
+}
+.works-left {
+  left: -90%;
+}
+.works-right {
+  right: -30%;
+}
+
+.idea-stars{
+  width: 3vw;
+  margin-top: 30px;
+  position: relative;
+}
+
+#img-projects {
+  margin-top: 20px;
+  width: 50vw;
+  height: auto;
+}
+
+.img-profiles {
+  width: 7vw;
+  height: auto;
+}
+
+.img-profiles:hover {
+  transform: scale(1.4);
+  transition: all 0.5s;
+}
+
+.img-help-star {
+  width: 1vw;
+  height: auto;
+  padding: 10px;
+  padding-top: 5px;
+}
+
+.chat-icon{
+  width: 2vw;
+  height: auto;
+}
+
+.chat-icon:hover{
+  transform: scale(1.2);
+  transition: all 0.5s;
+  background-color: #243241;
+  border-radius: 8px;
+}
+
+.press-stars {
+  width: 2vw;
+  position: relative;
+  left: 10%;
+}
+
+#see-all-arrow{
+  padding-left: 5px;
+  width: 0.8vw;
+  height: 8px;
+  margin-top: 4px;
+}
+
+.img-press{
+  width: 5vw;
+  height: auto;
+  padding: 13px;
+}
+
+.works-with-icons {
+  width: 7vw;
+  height: auto;
+}
+
+.works-with-icon-box {
+  padding: 1px;
+  background-color: #121E28;
+  border-color: #2A3744;
+  border-radius: 25px;
+  border-style: solid;
+}
+
+.works-with-icon-box:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+
+.podcast-logo{
+  width: 2vw;
+  height: auto;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #2A3744;
+  margin: 10px;
+}
+.podcast-stars{
+  width: 2.5vw;
+  left: -60%;
+}
+
+/* Style for contact and subscription forms */
+.input-subscription, .input-contact, textarea, select {
+  border-radius: 12px;
+  padding: 10px;
+  border-style: solid;
+  border-color: #2A3744;
+  background-color: #121E28;
+  font-family: 'Montserrat' !important;
+  font-size: 10px;
+  min-height: 15px;
+  color: #3D4C5B;
+  width: 17vw;
+  border-width: 2px;
+}
+textarea{
+  resize: none;
+  height: 120px;
+}
+
+select{
+  width: 19vw;
+  height: 40px;
+  margin-bottom: 90px;
+}
+
+::placeholder {
+  color: #3D4C5B;
+}
+#subscription-box, #contact-box {
+  width: 35vw;
+  border-style: solid;
+  background-color: #121E28;
+  border-color: #2A3744;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+
+#contact-box{
+  margin-bottom: 150px;
+}
+
+/* Using flex for the lay-out of forms */
+form, #contact-form {
+  display: flex;
+  gap: 10px;
+  width: 35vw;
+  justify-content: center;
+}
+
+#contact-form{
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Using flex for the lay-out of the press and podcast boxes*/
+.press-box, .podcast-box{
+  width: 12.5vw;
+  border-radius: 10px;
+  height: 165px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#press-boxes, #podcast-boxes{
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.podcast-box{
+  background-color: #121E28;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #2A3744;
+}
+.decrypt{
+  background-color: #77E6FF;
+}
+
+.blockworks{
+  background-color: #E2C1F9 ;
+}
+
+.techcrunch{
+  background-color: #DBE268;
+}
+
+/* positioning the 'read more, 'listen', 'watch' and 'see all' text within the press and podcast boxes*/
+.read, .listen{
+  font-size: 9px;
+  margin-left: 14px;
+  margin-top: 6px;
+  font-family: 'Montserrat' !important;
+}
+
+.listen{
+  color: white;
+  margin-left: 10px;
+}
+.see-all{
+  position: absolute;
+  left: 58%;
+  margin-top: 40px;
+}
+
+.read-more, .listen-podcast{
+  display: flex;
+}
+
+.listen-podcast{
+  margin-top: 20px;
+}
+
+.watch{
+  margin-top: 9px;
+}
+
+.read-techcrunch{
+  padding-top: 6px;
+}
+
+.read-blockworks{
+  margin-top: -4px;
+}
+
+.read-more:hover, .listen-podcast:hover{
+  transform: scale(1.4);
+  transition: all 0.3s;
+}
+
+.read-arrow, .listen-arrow{
+  width: 0.6vw;
+  height: 5px;
+  margin-top: 9.3px;
+  margin-left: 4px;
+}
+.see-all{
+  color: #8395A7;
+  font-family: 'Montserrat' !important;
+  font-size: 13px;
+  font-weight: 900;
+  display: flex;
+}
+
+.see-all:hover{
+  transform: scale(1.4);
+  transition: all 0.5s;
+}
+/* Footer layout to display navigation links and icons */
+footer{
+  background-color: #121E28;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul{
+  display: flex;
+  justify-content: space-between;
+  width: 15vw;
+  list-style-type: none;
+  align-items: center;
+  margin-right: 5%;
+}
+
+.contact-icon{
+  width: 3vw;
+  height: auto;
+  border-radius: 100px;
+}
+
+.footer-icon{
+  display: flex;
+  align-items: center;
+  width: 15vw;
+  justify-content: space-evenly;
+  margin-right: -20%;
+}

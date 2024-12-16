@@ -91,6 +91,8 @@ p{
     font-weight: 500;
 }
 
+
+
 .border-radius{
     border-radius: 20px;
 }
@@ -154,7 +156,6 @@ p{
 .cw-a:hover{
     border-radius: 20px;
     transform: scale(1.5);
-    /* color:  #010101; */
     transition: all 0.5s;
     padding-left: 15%;
     padding-right: 15%;
@@ -197,7 +198,14 @@ p{
 .ul-right{
     margin-left: 2.5vw;
 }
+.project-link{
+    text-decoration: none;
+}
 
+.project-link:hover{
+    transform: scale(1.6);
+    transition: all 0.5s;
+}
 
 /* images */
 .img-logo{
@@ -268,8 +276,7 @@ padding-bottom: 100px;
 }
 
 .contact{
-    height: 107%;
-    /* display: flex; */
+    height: 106.8%;
     justify-content: center;
 }
 
@@ -290,7 +297,6 @@ padding-bottom: 100px;
     gap: 40px;
     margin-top: 80px;
 }
-
 
 .about-me-body{
     width: 98vw;
@@ -333,67 +339,81 @@ padding-bottom: 100px;
     padding-bottom: 45px;
 }
 
-#test1, #test2, #test3, #test4, #cw1, #cw2, #cw3, #cw4, #cw5 {
+#test1, #test2, #test3, #test4, .cw1, .cw2 {
     margin-top: 10px;
     margin-bottom: 10px;
     box-shadow: 10px 10px #010101;
     justify-content: center;
+    background-size: 100%;
 }
 
-#test1, #cw1, #cw5 {
+#test1{
     align-self: flex-start;
     width: 22vw;
     height: 120px;
     align-items: flex-end;
+    background-image: url("/img/mastermind2-img.jpg");
 }
 
-#cw1, #cw2, #cw3, #cw4, #cw5{
+.cw1, .cw2{
     background-size: 100%;
+    width: 16vw;
+    height: 205px;
 }
 
-/* #cw1 p, #cw2 p, #cw3 p, #cw4 p, #cw5 p{
-    text-decoration: none;
-} */
+.cw1{
+    align-self: flex-start;
+    align-items: flex-end;
+}
 
-#cw1:hover, #cw2:hover, #cw3:hover, #cw4:hover, #cw5:hover{
+.cw2{
+    align-self: flex-end;
+    align-items: flex-start;
+}
+
+.cw1:hover, .cw2:hover{
     transform: scale(1.1);
     transition: all 0.5s;
 }
 
-#cw1{
+.cw1{
     background-image: url("/img/cw1.png");
 }
 
 #cw5{
     background-image: url("/img/cw5.png");
 }
-#test2, #cw2 {
+#test2{
     align-self: flex-end;
     width: 18vw;
     height: 170px;
     align-items: flex-start;
+    background-image: url("/img/mastermind-img.jpg");
 }
 
-#cw2{
+.cw2{
     background-image: url("/img/cw2.png");
 }
 
-#test3, #cw3{
+#test3{
     align-self: flex-start;
     width: 18vw;
     height: 130px;
     align-items: flex-end;
+    background-image: url("/img/website-img.jpg");
 }
 
 #cw3{
     background-image: url("/img/cw3.png");
 }
 
-#test4, #cw4{
+#test4 {
     align-self: flex-end;
     width: 27vw;
     height: 160px;
     align-items: flex-start;
+    background-image: url("/img/website2-img.jpg");
+
 }
 
 #cw4{
@@ -427,7 +447,7 @@ padding-bottom: 100px;
 .education, .hobbies{
     border-style: solid;
     border-width: 5px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 .education{
     border-color: #FACF0F;
