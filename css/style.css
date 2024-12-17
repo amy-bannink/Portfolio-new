@@ -63,6 +63,10 @@ nav ul li a:hover{
     color: #fbfbfb;
 }
 
+.about-li{
+    list-style-type: none;
+}
+
 /* handig veel gebruikt */
 .flex-c{
     display: flex;
@@ -207,6 +211,13 @@ p{
     transition: all 0.5s;
 }
 
+.about-text{
+    font-size: medium;
+    font-weight: 600;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 /* images */
 .img-logo{
     width: 5vw;
@@ -251,10 +262,16 @@ p{
     margin-right: 10px;
 }
 
+.download-icon{
+    width: 1vw;
+}
+
 /* .project-img{
     width: 22vw;
     height: 120px;
 } */
+
+
 /* pages */
 .projects{
     background: rgb(221,124,160);
@@ -425,13 +442,13 @@ padding-bottom: 100px;
 }
 
 #about-right{
-    width: 30vw;
+    width: 20vw;
     align-items: center;
 }
 
 #about-left{
-    width: 40vw;
-    justify-content: center;
+    width: 50vw;
+    align-items: center;
 }
 
 #location-div{
