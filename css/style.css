@@ -385,7 +385,7 @@ padding-bottom: 100px;
     width: 22vw;
     height: 120px;
     align-items: flex-end;
-    background-image: url("/img/mastermind2-img.jpg");
+    /* background-image: url("/img/mastermind2-img.jpg"); */
 }
 
 .cw1, .cw2{
@@ -421,7 +421,7 @@ padding-bottom: 100px;
     width: 18vw;
     height: 170px;
     align-items: flex-start;
-    background-image: url("/img/mastermind-img.jpg");
+    /* background-image: url("/img/mastermind-img.jpg"); */
 }
 
 .cw2{
@@ -433,7 +433,7 @@ padding-bottom: 100px;
     width: 18vw;
     height: 130px;
     align-items: flex-end;
-    background-image: url("/img/website-img.jpg");
+    /* background-image: url("/img/website-img.jpg"); */
 }
 
 #cw3{
@@ -445,7 +445,7 @@ padding-bottom: 100px;
     width: 27vw;
     height: 160px;
     align-items: flex-start;
-    background-image: url("/img/website2-img.jpg");
+    /* background-image: url("/img/website2-img.jpg"); */
 
 }
 
