@@ -1,4 +1,3 @@
-
 function footerOpen() {
     //footer element
     let footer = document.getElementById("footer");

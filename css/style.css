@@ -149,18 +149,9 @@ p{
     padding-top: 80px;    
 }
 
-.project-text1{
-    margin-right: -40px;
-    text-decoration: none;
-
-}
-.project-text2{
-    margin-left: -40px;
-}
 
 .cw-a{
     text-decoration: none;
-    padding-left: 15%;
 }
 
 .cw-a:hover{
@@ -227,6 +218,14 @@ p{
     font-weight: 600;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.box-text1{
+    margin-right: 10px;
+}
+
+.box-text2{
+    margin-left: 15px;
 }
 
 /* images */
@@ -413,15 +412,11 @@ padding-bottom: 100px;
     background-image: url("/img/cw1.png");
 }
 
-#cw5{
-    background-image: url("/img/cw5.png");
-}
 #test2{
     align-self: flex-end;
     width: 18vw;
     height: 170px;
     align-items: flex-start;
-    /* background-image: url("/img/mastermind-img.jpg"); */
 }
 
 .cw2{
@@ -433,7 +428,6 @@ padding-bottom: 100px;
     width: 18vw;
     height: 130px;
     align-items: flex-end;
-    /* background-image: url("/img/website-img.jpg"); */
 }
 
 #cw3{
@@ -445,8 +439,6 @@ padding-bottom: 100px;
     width: 27vw;
     height: 160px;
     align-items: flex-start;
-    /* background-image: url("/img/website2-img.jpg"); */
-
 }
 
 #cw4{
