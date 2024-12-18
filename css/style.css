@@ -65,6 +65,12 @@ nav ul li a:hover{
 
 .about-li{
     list-style-type: none;
+    
+}
+
+.about-li:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 
 /* handig veel gebruikt */
@@ -202,13 +208,18 @@ p{
 .ul-right{
     margin-left: 2.5vw;
 }
-.project-link{
+.project-link, .about-link{
     text-decoration: none;
 }
 
 .project-link:hover{
     transform: scale(1.6);
     transition: all 0.5s;
+}
+
+.about-link:hover{
+    background-color: #FACF0F;
+
 }
 
 .about-text{
@@ -262,9 +273,14 @@ p{
     margin-right: 10px;
 }
 
-.download-icon{
+.medium-icon{
     width: 1vw;
 }
+
+.smallest-icon{
+    width: 0.5vw;
+}
+
 
 /* .project-img{
     width: 22vw;
