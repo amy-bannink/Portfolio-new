@@ -9,14 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&family=Instrument+Serif&family=Lato&display=swap"
         rel="stylesheet">
-    <script src="script.js"></script>
-    <title>About Me</title>
+        <script src="/js/script.js"></script>
+        <title>About Me</title>
 </head>
 <!-- Landing Page De bezoeker van de website komt bij het laden van de website uit op de landing page, dit geld zowel voor een single- als multi-page website. Het is de bedoeling dat de landing page de bezoeker een duidelijk beeld geeft van wat er gevonden kan worden op de website. (Een standaard verwachting is dat deze landing page een mooi uitgewerkt design heeft) -->
 
 <body>
     <header>
-        <a href="index.html"><img src="img/Logo-pink.png" alt="Logo-pink" class="img-logo pink"></a>
+        <a href="index.html"><img src="img/logo-pink.png" alt="Logo pink" class="img-logo pink"></a>
         <nav>
             <ul>
                 <li class="font-serif"><a href="index.html">Home</a></li>
@@ -28,28 +28,31 @@
         </nav>
     </header>
     <main id="about-me" class="padding-bottom">
-        <div class="about-me-top flex-r">
+        <section class="about-me-top flex-r">
         <div id="about-left" class="flex-c bg-y border-radius">
             <h1 class="font-serif">About Me</h1>
-            <p class="font-serif about-text">My name is Amy Bannink, i am 23 years old and i am a student software developer at ROC Nijmegen. I enjoy being in nature, working out, going on solo trips, going camping or spending time with my family. My favorite writers are Mary Oliver and Thich Nhat Hanh. I think the best way to get to know these writers yourself is to read "Upstream" by Mary Oliver and "Peace Is Every Step" by Thich Nhat Hanh. </p>
+            <p class="font-serif about-text">My name is Amy Bannink, i am 23 years old and i am a student software developer at ROC Nijmegen. <br> I enjoy being in nature, working out, going on solo trips, going camping or spending time with my family.<br> My favorite writers are Mary Oliver and Thich Nhat Hanh. I think the best way to get to know these writers yourself is to read "Upstream" by Mary Oliver and "Peace Is Every Step" by Thich Nhat Hanh. <br> I am a certified yoga teacher and i practice meditation using sound bowls. In my free time i make beats using recordings of them. Staying balanced is important to me and i bring this with me into every project i work on. </p>
         </div>
-        <div id="about-right" class="flex-c">
+        <div id="about-right" class="flex-c border-radius bg-p">
             <img src="img/profile.jpg" alt="avatar" id="avatar-img" class="border-radius">
-            <div id="location-div" class="flex-r">
-                <img src="img/location-icon.svg" alt="location icon" id="location-icon">
-                <p class="font-serif avatar-subtext">Nijmegen</p>
-            </div>
-            <p class="font-serif avatar-subtext">23 years old</p>
-            <p class=" font-serif avatar-subtext">Student software developer</p>
+                <div id="location-div" class="flex-r">
+                    <img src="img/location-icon.svg" alt="location icon" id="location-icon">
+                    <p class="font-serif avatar-subtext">Nijmegen, the Netherlands</p>
+                </div>
+                <p class="font-serif avatar-subtext">23 years old</p>
+                <p class=" font-serif avatar-subtext">Student software developer</p>
+            
         </div>
-    </div>
-    <div class="about-me-body flex-r">
-    <div class="about-me-bottom flex-c">
+        </section>
+    <section class="about-me-body flex-r">
+    <div class="about-me-column flex-c border-radius">
         <div class="about-div languages bg-p border-radius">
             <h2 class="font-serif">Languages</h2>
             <ul class="ul-left">
-                <li class="font-serif">Dutch (native)</li>
-                <li class="font-serif">English (fluent)</li>
+                <li class="font-serif about-li"><img src="/img/dutch-icon.svg" alt="windmill icon netherlands" class="medium-icon">
+                    Dutch (first language)</li>
+                <li class="font-serif about-li"><img src="/img/english-icon.svg" alt="language icon english" class="medium-icon">
+                    English (fluent)</li>
             </ul>
         </div>
         
@@ -65,34 +68,20 @@
             </ul>
         </div>
         
-        <div class="about-div qualities bg-y border-radius">
-            <h2 class="font-serif">
-                Places i've traveled to
-            </h2>
-            <!-- <ul>
-                <li class="font-serif">Yoga</li>
-                <li class="font-serif">Pole dancing</li>
-                <li class="font-serif">Making beats</li>
-            </ul>
-            <ul>
-                <li class="font-serif">Yoga</li>
-                <li class="font-serif">Pole dancing</li>
-                <li class="font-serif">Making beats</li>
-            </ul> -->
-        </div>
+        
     </div>
-    <div class="about-me-bottom flex-c">
+    <div class="about-me-column flex-c border-radius">
         <div class="about-div education border-radius">
             <h2 class="font-serif">Education</h2>
             <ul class="ul-left">
                 <li class="font-serif about-li">
-                    <a href="/img/havo-diploma.pdf" download="havo diploma Amy Bannink" class="about-link t-b border-radius">
+                    <a href="/img/havo-diploma.pdf" download="havo diploma Amy Bannink" class="download-link t-b border-radius">
                     <img src="/img/download-icon.svg" alt="download icon" class="medium-icon">
                     Unic Utrecht Havo (2019)
                 </a>
                 </li>
                 <li class="font-serif about-li">
-                    <a href="/img/hogeschool-diploma.pdf" download="propedeuse Amy Bannink" class="about-link t-b border-radius">
+                    <a href="/img/hogeschool-diploma.pdf" download="propedeuse Amy Bannink" class="download-link t-b border-radius">
                     <img src="/img/download-icon.svg" alt="download icon" class="medium-icon">
                     Novi Hogeschool HBO Full Stack Developer (2020)
                 </a>
@@ -150,8 +139,21 @@
         </div>
 
         </div>
+        <div class="about-div curriculum-vitae bg-y border-radius">
+            <h2 class="font-serif">
+                Curriculum Vitae
+            </h2>
+            <ul class="ul-left">
+                <li class="font-serif about-li">
+                    <a href="/img/cv.pdf" download="CV Amy Bannink" class="download-link t-b border-radius"><img src="/img/download-icon.svg" class="medium-icon" alt="download icon">
+                        Download here
+                        </a>
+                </li>
+            </ul>
+            
+        </div>
     </div>
-</div>
+</section>
 
     </main>
     <div id="footer-div" class="flex-r bg-g">
@@ -161,7 +163,7 @@
     </div>
     <footer id="footer">
         <div>
-            <a href="index.html"><img src="img/Logo-yellow.png" alt="Logo-pink" class="img-logo yellow"></a>
+            <a href="index.html"><img src="img/logo-yellow.png" alt="Logo yellow" class="img-logo yellow"></a>
         </div>
         <nav>
             <ul >
