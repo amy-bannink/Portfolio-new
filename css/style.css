@@ -226,7 +226,7 @@ p{
 }
 
 /* images */
-.img-logo{
+.img-logo, .large-icon{
     width: 5vw;
 }
 
@@ -241,11 +241,10 @@ p{
 }
 
 .contact-icons{
-    width: 4vw;
+    width: 2vw;
     height: 40px;
     align-self: flex-end;
-    /* margin: 20px; */
-    padding: 15%;
+    padding: 20%;
 
 }
 
@@ -277,6 +276,10 @@ p{
     width: 0.5vw;
 }
 
+#contact-icons{
+    margin-top: 80px;
+    gap: 50px;
+}
 
 /* .project-img{
     width: 22vw;
@@ -306,18 +309,24 @@ padding-bottom: 100px;
 
 .contact{
     height: 106.8%;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .c-left{
     width: 40vw;
+    align-items: center;
+}
+
+.c-left-text{
+    width: 29vw;
+    margin-top: 30px;
 }
 
 .c-right{
     width: 58.5vw;
     background-image: url("../img/contact-bg-final.png");
     background-size: 100% 100%;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     padding-left: 5vw;
 }
 
