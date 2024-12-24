@@ -152,14 +152,6 @@ p{
     text-decoration: none;
 }
 
-.cw-a:hover{
-    border-radius: 20px;
-    transform: scale(1.5);
-    transition: all 0.5s;
-    padding-left: 15%;
-    padding-right: 15%;
-    background-color: #010101;
-}
 
 .contact-title{
     font-size: 80px;
