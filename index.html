@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang = "en">
-
 <head>
+    <!-- Charset declaration for proper encoding -->
     <meta charset="UTF-8">
+    <!-- External CSS file for styling -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Preconnect to Google Fonts for faster loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Importing Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&family=Instrument+Serif&family=Lato&display=swap"
         rel="stylesheet">
+    <!-- External JS file for interactive functions -->
     <script src="/js/script.js"></script>
+    <!-- Page title -->
     <title>Portfolio Amy Bannink</title>
 </head>
 
 <body>
+    <!-- Header section with logo and navigation -->
     <header>
+        <!-- Logo linking to the homepage -->
         <a href="index.html"><img src="img/logo-pink.png" alt="logo pink" class="img-logo pink"></a>
+        <!-- Navigation menu -->
         <nav>
             <ul>
                 <li class="font-serif"><a href="index.html">Home</a></li>
@@ -25,23 +33,29 @@
             </ul>
         </nav>
     </header>
+    <!-- Main content of the homepage -->
     <main id="home">
         <section class="home-page flex-c">
             <h1 class="font-serif">Welcome</h1>
+            <!-- Introductory text -->
             <p class="font-serif">My name is Amy Bannink, I am a student software developer at ROC Nijmegen and this is
                 my portfolio website. Here you can find out more about me, view my projects and find my contact
                 information. </p>
         </section>
     </main>
+    <!-- Footer with an interactive arrow icon for expanding -->
     <div id="footer-div" class="flex-r bg-g">
         <a href="#footer" onclick="footerOpen()">
+            <!-- Arrow icon for footer expansion -->
             <img src="/img/arrow-icon.svg" id="arrow-icon" alt="arrow icon">
         </a>
     </div>
+    <!-- Footer content with additional links -->
     <footer id="footer">
         <div>
             <a href="index.html"><img src="img/logo-yellow.png" alt="Logo yellow" class="img-logo yellow"></a>
         </div>
+        <!-- Footer navigation -->
         <nav>
             <ul>
                 <li class="font-serif"><a href="index.html" class="footer-text">Home</a></li>

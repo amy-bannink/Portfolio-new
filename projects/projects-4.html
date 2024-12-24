@@ -3,19 +3,28 @@
 <html lang="en">
 
 <head>
+    <!-- Charset declaration for proper encoding -->
     <meta charset="UTF-8">
+    <!-- Linking to the external stylesheet -->
     <link rel="stylesheet" href="../css/style.css">
+    <!-- Preconnect to Google Fonts for faster loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Import Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&family=Instrument+Serif&family=Lato&display=swap"
         rel="stylesheet">
+        <!-- External JS file for interactive functions -->
         <script src="../js/script.js"></script>
+        <!-- Page title -->
         <title>ROC website</title>
 </head>
 
 <body>
-    <header id="projects-header">
+    <!-- Header section with navigation links -->
+    <header class="projects-header">
+        <!-- Logo linking to the homepage -->
         <a href="../index.html"><img src="../img/logo-pink.png" alt="Logo pink" class="img-logo pink"></a>
+        <!-- Navigation menu -->
         <nav>
             <ul>
                 <li class="font-serif"><a href="../index.html" class="nav-black">Home</a></li>
@@ -26,41 +35,54 @@
             </ul>
         </nav>
     </header>
+    <!-- Main content for the ROC website project -->
     <main class="projects">
         <section>
+        <!-- Project title-->
         <div class="projects-title">
             <h1 class="font-serif t-w">ROC website</h1>
         </div>
         <div class="projects-div flex-c">
+            <!-- Project description and download link -->
             <div class="bg-p border-radius flex-c t-w projects-full-screen margin-bottom">
                     <p class="font-serif t-w full-screen-t"> 
+                        <!-- Download icon and link to download the project -->
                         <img src="../img/download-icon.svg" class="medium-icon" alt="download icon">                
                         <a href="/downloads/projectweek.zip" download="Projectweek 1, group assignment" class="download-link t-w border-radius">  
                             Download the project here</a> 
                         <br> 
+                        <!-- HTML and CSS icons-->
                         <img src="../img/html-icon.svg" class="medium-icon" alt="html icon"> 
                         <img src="../img/css-icon.svg" class="medium-icon" alt="css icon"> HTML, CSS 
                         <br> 
+                        <!-- Date icon and project date -->
                         <img src="../img/to-date-icon.svg" class="medium-icon" alt="calender icon">Project week one, October 2024
                         <br>
+                        <!-- Description of the project -->
                         <br>This project was made during project week one with a group of three. We made a website for our school in one week using HTML, CSS and tools like Figma and Trello. 
                         <br> 
                         <br> 
+                        <!-- Link to return to the project overview page -->
                         <a href="../projects.html" class="download-link t-w border-radius">Back to project overview</a> 
                     </p>
             </div>
         </div>
     </section>
     </main>
+    <!-- Footer section with interactive arrow -->
     <div id="footer-div" class="flex-r bg-g">
         <a href="#footer" onclick="footerOpen()">
+            <!-- Arrow icon to expand the footer -->
             <img src="../img/arrow-icon.svg" id="arrow-icon" alt="arrow icon">
         </a>
     </div>
+    <!-- Footer content with links -->
     <footer id="footer">
         <div>
+            <!-- Yellow logo linking to homepage -->
             <a href="../index.html"><img src="../img/logo-yellow.png" alt="Logo yellow" class="img-logo yellow"></a>
         </div>
+        <!-- Footer navigation links -->
         <nav>
             <ul >
                 <li class="font-serif"><a href="../index.html" class="footer-text">Home</a></li>

@@ -1,24 +1,25 @@
+/* Reset margin and padding for all elements */
 *{
     margin: 0;
     padding: 0;
 }
 
+/* Main content settings */
 main{
     width: 98.5vw;
     height: auto;
 }
 
-/* header, nav and footer */
+/* Header, Navigation, and Footer Styles */
 header, footer{
     height: 70px;
     width: 98.5vw;
     background-color: #FBFBFB;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
 }
 
-#projects-header{
+.projects-header{
     background-color: #010101;
 }
 
@@ -42,7 +43,6 @@ nav ul li a{
     display: block;
 }
 
-
 footer nav ul li a, .nav-black{
     color: #FBFBFB;
 }
@@ -51,7 +51,6 @@ footer nav ul li a, .nav-black{
     background-color: #ACACAC;
     color: #010101;
 }
-
 
 footer nav ul li a:hover{
     color: #ACACAC;
@@ -63,6 +62,19 @@ nav ul li a:hover{
     color: #fbfbfb;
 }
 
+/* Footer div layout */
+#footer-div{
+    width: 10vw;
+    height: 38px;
+    border-radius: 50px 50px 0px 0px;
+    margin-left: 45vw;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    position: sticky;
+}
+
+/* list item styling for "About" section */
 .about-li{
     list-style-type: none;
 }
@@ -72,7 +84,9 @@ nav ul li a:hover{
     transition: all 0.5s;
 }
 
-/* handig veel gebruikt */
+/* commonly used */
+
+/* Commonly used Flex */
 .flex-c{
     display: flex;
     flex-direction: column;
@@ -81,6 +95,7 @@ nav ul li a:hover{
     display: flex;
 }
 
+/* Typography settings */
 .font-serif{
     font-family: "Instrument Serif", serif;
 }
@@ -100,10 +115,12 @@ p{
     font-weight: 500;
 }
 
+/* Border radius */
 .border-radius{
     border-radius: 20px;
 }
 
+/* Background color */
 .bg-b{
     background-color: #010101;
 }
@@ -120,6 +137,7 @@ p{
     background-color: #FACF0F;
 }
 
+/* Text color  */
 .t-w{
     color: #FBFBFB;
 }
@@ -132,6 +150,7 @@ p{
     color: #ACACAC;
 }
 
+/* Spacing  */
 .padding-bottom{
     padding-bottom: 100px;
 }
@@ -141,46 +160,57 @@ p{
 }
 
 /* text */
+
+/* Projects title styling */
 .projects-title h1{
     font-size: 70px;
     display: flex;
     padding-top: 80px;    
 }
 
-
-.cw-a{
-    text-decoration: none;
-}
-
-
+/* Contact page title styling */
 .contact-title{
     font-size: 80px;
     margin-top: 80px;
 }
 
+/* Contact right section styling */
 .contact-right{
-    /* align-self: center; */
     padding-left: 1.5vw;
     margin-bottom: 20px;
 }
 
+/* Contact paragraph styling */
 .contact-p{
     margin-left: 2vw;
     font-weight: 600;
 }
 
+.contact-layout{
+    align-items: center;
+}
+
+/* About page left title */
 #about-left h1{
     font-size: 80px;
 }
 
+/* Avatar subtext styling */
 .avatar-subtext{
     margin: 5px;
     font-weight: 600;}
 
+/* Creative Work section text styling */
 .cw-text{
     font-weight: 600;
 }
 
+/* creative work link */
+.cw-a{
+    text-decoration: none;
+}
+
+/* Left and right alignment for unordered lists */
 .ul-left{
     margin-left: 1vw;    
 }
@@ -188,6 +218,8 @@ p{
 .ul-right{
     margin-left: 5vw;
 }
+
+/* Project and download link + hover effects */
 .project-link, .download-link{
     text-decoration: none;
 }
@@ -202,6 +234,7 @@ p{
     color:#010101;
 }
 
+/* About section text styling */
 .about-text{
     font-size: medium;
     font-weight: 600;
@@ -210,6 +243,7 @@ p{
     margin-bottom: 5%;
 }
 
+/* Box text styling for various sections */
 .box-text1{
     margin-right: 10px;
 }
@@ -219,26 +253,28 @@ p{
 }
 
 /* images */
+
+/* logo + standard width for large icons */
 .img-logo, .large-icon{
     width: 5vw;
 }
 
+/* Background image for home section */
 #img-home-bg{
     width: 98.5vw;
 }
-
+/* Arrow icon styling */
 #arrow-icon{
     fill: #fbfbfb;
     transform: rotate(90deg);
     width: 1vw;
 }
-
+/* Contact icon settings */
 .contact-icons{
     width: 2vw;
     height: 40px;
     align-self: flex-end;
     padding: 20%;
-
 }
 
 .contact-icons:hover{
@@ -247,20 +283,25 @@ p{
   transition: all 0.5s;
   
 }
+
+/* Contact image sizing */
 .contact-img{
     width: 10vw;
     height: 120px;
 }
 
+/* Avatar image styling */
 #avatar-img{
     width: 15vw;
 }
 
+/* Location icon sizing */
 #location-icon{
     width: 1.5vw;
     margin-right: 10px;
 }
 
+/* Icon sizes */
 .medium-icon{
     width: 1vw;
 }
@@ -269,18 +310,15 @@ p{
     width: 0.5vw;
 }
 
+/* Contact icons layout */  
 #contact-icons{
     margin-top: 80px;
     gap: 50px;
 }
 
-/* .project-img{
-    width: 22vw;
-    height: 120px;
-} */
+/* Pages */
 
-
-/* pages */
+/* Page-specific styles for projects, home, and contact */
 .projects{
     background: rgb(221,124,160);
 background: radial-gradient(ellipse, rgba(221,124,160,1) 0%, rgba(1,1,1,1) 50%);
@@ -323,6 +361,7 @@ padding-bottom: 100px;
     padding-left: 5vw;
 }
 
+/* About Me section layout and styling */
 .about-me-top{
     justify-content: center;
     gap: 40px;
@@ -333,8 +372,6 @@ padding-bottom: 100px;
     justify-content: center;
     margin-top: 50px;
     gap: 40px;
-    /* width: 50vw; */
-
 }
 
 .about-me-column{
@@ -342,7 +379,49 @@ padding-bottom: 100px;
     align-items: center;
 }
 
-/* textfields */
+#about-right{
+    width: 20vw;
+    align-items: center;
+    border-style: solid;
+    border-width: 5px;
+    justify-content: center;
+}
+
+#about-left{
+    width: 30vw;
+    align-items: center;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.about-div{
+    /* width: 20vw; */
+    padding: 10px;
+    padding-left: 25px;
+    border-style: solid;
+    border-width: 5px;
+}
+
+#location-div{
+    margin-top: 20px;
+}
+
+.education, .curriculum-vitae{
+    border-color: #FACF0F;
+}
+.hobbies, .experience, .languages{
+border-color: #DD7CA0;
+}
+
+.education, .experience, .curriculum-vitae{
+    width: 27vw;
+}
+
+.languages, .hobbies{
+    width: 17vw;
+}
+
+/* Textfield for home page */
 .home-page{
     width: 35vw;
     justify-content: center;
@@ -350,24 +429,14 @@ padding-bottom: 100px;
     padding: 5% 20%;
 }
 
-/* divs for objects, layout or remaining fields */
-#footer-div{
-    width: 10vw;
-    height: 38px;
-    border-radius: 50px 50px 0px 0px;
-    margin-left: 45vw;
-    justify-content: center;
-    align-items: center;
-    bottom: 0px;
-    position: sticky;
-}
-
+/* Project styling */
 .projects-div{
     width: 40vw;
     padding-top: 45px;
     padding-bottom: 45px;
 }
 
+/* Full screen project container */
 .projects-full-screen{
     height: 370px;
     margin-top: 40px;
@@ -375,24 +444,58 @@ padding-bottom: 100px;
     box-shadow: 10px 10px #010101;
 }
 
+/* Full screen text styling */
 .full-screen-t{
     margin: 60px;
 }
 
-#test1, #test2, #test3, #test4, .cw1, .cw2 {
+/* project-containers*/
+#cont1, #cont2, #cont3, #cont4, .cw1, .cw2 {
     margin-top: 10px;
     margin-bottom: 10px;
     box-shadow: 10px 10px #010101;
     justify-content: center;
-    /* background-size: 100%; */
 }
 
-#test1{
+#cont1{
     align-self: flex-start;
     width: 22vw;
     height: 120px;
     align-items: flex-end;
     /* background-image: url("/img/mastermind2-img.jpg"); */
+}
+
+#cont2{
+    align-self: flex-end;
+    width: 18vw;
+    height: 170px;
+    align-items: flex-start;
+}
+#cont3{
+    align-self: flex-start;
+    width: 18vw;
+    height: 130px;
+    align-items: flex-end;
+}
+
+#cont4 {
+    align-self: flex-end;
+    width: 27vw;
+    height: 160px;
+    align-items: flex-start;
+}
+
+/* creative work containers */
+.cw2{
+    background-image: url("/img/cw2.png");
+}
+
+#cw3{
+    background-image: url("/img/cw3.png");
+}
+
+#cw4{
+    background-image: url("/img/cw4.png");
 }
 
 .cw1, .cw2{
@@ -419,83 +522,3 @@ padding-bottom: 100px;
 .cw1{
     background-image: url("/img/cw1.png");
 }
-
-#test2{
-    align-self: flex-end;
-    width: 18vw;
-    height: 170px;
-    align-items: flex-start;
-}
-
-.cw2{
-    background-image: url("/img/cw2.png");
-}
-
-#test3{
-    align-self: flex-start;
-    width: 18vw;
-    height: 130px;
-    align-items: flex-end;
-}
-
-#cw3{
-    background-image: url("/img/cw3.png");
-}
-
-#test4 {
-    align-self: flex-end;
-    width: 27vw;
-    height: 160px;
-    align-items: flex-start;
-}
-
-#cw4{
-    background-image: url("/img/cw4.png");
-}
-
-.contact-layout{
-    align-items: center;
-}
-
-#about-right{
-    width: 20vw;
-    align-items: center;
-    border-style: solid;
-    border-width: 5px;
-    justify-content: center;
-}
-
-#about-left{
-    width: 30vw;
-    align-items: center;
-    border-style: solid;
-    border-width: 5px;
-}
-
-#location-div{
-    margin-top: 20px;
-}
-
-.about-div{
-    /* width: 20vw; */
-    padding: 10px;
-    padding-left: 25px;
-    border-style: solid;
-    border-width: 5px;
-}
-
-.education, .curriculum-vitae{
-    border-color: #FACF0F;
-}
-.hobbies, .experience, .languages{
-border-color: #DD7CA0;
-}
-
-.education, .experience, .curriculum-vitae{
-    width: 27vw;
-}
-
-.languages, .hobbies{
-    width: 17vw;
-}
-

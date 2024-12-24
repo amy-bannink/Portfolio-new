@@ -3,20 +3,27 @@
 <html lang="en">
 
 <head>
+    <!-- Charset declaration for proper encoding -->
     <meta charset="UTF-8">
-
+    <!-- External CSS file for styling -->
     <link rel="stylesheet" href="css/style.css">
+        <!-- Preconnect to Google Fonts for faster loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- Importing Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&family=Instrument+Serif&family=Lato&display=swap"
         rel="stylesheet">
+        <!-- External JS file for interactive functions -->
         <script src="/js/script.js"></script>
         <title>Projects</title>
 </head>
 
 <body>
-    <header id="projects-header">
+    <!-- Header with logo, navigation and class to make it black of color -->
+    <header class="projects-header">
         <a href="index.html"><img src="img/logo-pink.png" alt="Logo pink" class="img-logo pink"></a>
+    <!-- Navigation menu -->
+
         <nav>
             <ul>
                 <li class="font-serif"><a href="index.html" class="nav-black">Home</a></li>
@@ -27,15 +34,17 @@
             </ul>
         </nav>
     </header>
+    <!-- Main content with project listings -->
     <main class="projects">
         <section>
         <div class="projects-title">
             <h1 class="font-serif t-w">My Projects</h1>
         </div>
+
+    <!-- Project cards displaying project details -->
         <div class="projects-div flex-c">
 
-            
-            <div id="test1" class="bg-p border-radius flex-c t-w">
+            <div id="cont1" class="bg-p border-radius flex-c t-w">
                 <a href="/projects/projects-1.html" class="project-link t-w">
                     <p class="font-serif box-text1">Mastermind 2.0</p>
                 </a>
@@ -44,7 +53,7 @@
             </div>
 
           
-            <div id="test2" class="bg-p border-radius flex-c t-w">
+            <div id="cont2" class="bg-p border-radius flex-c t-w">
                 <a href="/projects/projects-2.html" class="project-link">
                     <p class="font-serif t-w box-text2">Mastermind</p>
                 </a>
@@ -52,7 +61,7 @@
                 <p class="font-serif t-w box-text2">October 2024</p>
             </div>
             
-            <div id="test3" class="bg-p border-radius flex-c t-w">
+            <div id="cont3" class="bg-p border-radius flex-c t-w">
                 <a href="/projects/projects-3.html" class="project-link">
                     <p class="font-serif t-w box-text1">Pink Goose website</p>
                 </a>
@@ -61,13 +70,16 @@
             </div>
 
 
-            <div id="test4" class="bg-p border-radius flex-c t-w">
+            <div id="cont4" class="bg-p border-radius flex-c t-w">
                 <a href="/projects/projects-4.html" class="project-link">
                     <p class="font-serif t-w box-text2">ROC website (group project)</p>
                 </a>
                 <p class="font-serif box-text2">HTML, CSS</p>
                 <p class="font-serif box-text2">Project week 1, october 2024</p>
             </div>
+
+        <!-- Additional projects follow similar structure -->
+
         </div>
     </section>
     </main>
@@ -76,10 +88,12 @@
             <img src="/img/arrow-icon.svg" id="arrow-icon" alt="arrow icon">
         </a>
     </div>
+    <!-- Footer with additional links -->
     <footer id="footer">
         <div>
             <a href="index.html"><img src="img/logo-yellow.png" alt="Logo yellow" class="img-logo yellow"></a>
         </div>
+    <!-- Footer navigation -->
         <nav>
             <ul >
                 <li class="font-serif"><a href="index.html" class="footer-text">Home</a></li>

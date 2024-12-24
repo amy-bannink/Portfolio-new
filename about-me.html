@@ -3,19 +3,28 @@
 <html lang="en">
 
 <head>
+    <!-- Charset declaration for proper encoding -->
     <meta charset="UTF-8">
+    <!-- External CSS file for styling -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Preconnect to Google Fonts for faster loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Importing Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&family=Instrument+Serif&family=Lato&display=swap"
         rel="stylesheet">
+        <!-- External JS file for interactive functions -->
         <script src="/js/script.js"></script>
+        <!-- Page title -->
         <title>About Me</title>
 </head>
 
 <body>
+    <!-- Header with logo and navigation -->
     <header>
+        <!-- Logo linking to the homepage -->
         <a href="index.html"><img src="img/logo-pink.png" alt="Logo pink" class="img-logo pink"></a>
+        <!-- Navigation menu -->
         <nav>
             <ul>
                 <li class="font-serif"><a href="index.html">Home</a></li>
@@ -26,13 +35,16 @@
             </ul>
         </nav>
     </header>
+    <!-- Main content for About Me page -->
     <main id="about-me" class="padding-bottom">
+        <!-- Top section: Personal introduction and profile -->
         <section class="about-me-top flex-r">
         <div id="about-left" class="flex-c bg-y border-radius">
             <h1 class="font-serif">About Me</h1>
             <p class="font-serif about-text">My name is Amy Bannink, i am 23 years old and i am a student software developer at ROC Nijmegen. <br> I enjoy being in nature, working out, going on solo trips, going camping or spending time with my family.<br> <br> My learning style is creative. This means i like to learn by observing and using my imagination. I'm good at brainstorming and looking at situations from different perspectives. I'm most efficient when instructions are clear and to the point. This allows me to maintain overview even during complex projects.</p>
         </div>
         <div id="about-right" class="flex-c border-radius bg-p">
+            <!-- Profile image -->
             <img src="img/profile.jpg" alt="avatar" id="avatar-img" class="border-radius">
                 <div id="location-div" class="flex-r">
                     <img src="img/location-icon.svg" alt="location icon" id="location-icon">
@@ -43,8 +55,11 @@
             
         </div>
         </section>
+    <!-- Body section: Personal skills and background -->
     <section class="about-me-body flex-r">
+    <!-- First column: Languages and hobbies -->
     <div class="about-me-column flex-c border-radius">
+        <!--languages-->
         <div class="about-div languages bg-p border-radius">
             <h2 class="font-serif">Languages</h2>
             <ul class="ul-left">
@@ -54,7 +69,7 @@
                     English (fluent)</li>
             </ul>
         </div>
-        
+        <!-- Hobbies list -->
         <div class="about-div hobbies border-radius">
             <h2 class="font-serif">Hobbies</h2>
             <ul class="ul-left">
@@ -66,10 +81,10 @@
                     <img src="/img/beats-icon.svg" alt="beats icon" class="medium-icon">Making beats</li>
             </ul>
         </div>
-        
-        
     </div>
+    <!-- Second column: Education, experience, and curriculum vitae -->
     <div class="about-me-column flex-c border-radius">
+        <!--Education section-->
         <div class="about-div education border-radius">
             <h2 class="font-serif">Education</h2>
             <ul class="ul-left">
@@ -92,6 +107,7 @@
                 </li>
             </ul>
         </div>
+        <!-- Skills & Experience section -->
         <div class="about-div experience bg-p border-radius">
             <h2 class="font-serif">
                 Experience with
@@ -136,8 +152,8 @@
                 </li>
             </ul>
         </div>
-
         </div>
+        <!-- Downloadable curriculum vitae link -->
         <div class="about-div curriculum-vitae bg-y border-radius">
             <h2 class="font-serif">
                 Curriculum Vitae
@@ -149,21 +165,23 @@
                         </a>
                 </li>
             </ul>
-            
         </div>
     </div>
 </section>
-
     </main>
+    <!-- Footer section with an interactive arrow icon for expanding -->
     <div id="footer-div" class="flex-r bg-g">
         <a href="#footer" onclick="footerOpen()">
+            <!-- Arrow icon for footer expansion -->
             <img src="/img/arrow-icon.svg" id="arrow-icon" alt="arrow icon">
         </a>
     </div>
+    <!-- Footer content with additional links -->
     <footer id="footer">
         <div>
             <a href="index.html"><img src="img/logo-yellow.png" alt="Logo yellow" class="img-logo yellow"></a>
         </div>
+        <!-- Footer navigation -->
         <nav>
             <ul >
                 <li class="font-serif"><a href="index.html" class="footer-text">Home</a></li>

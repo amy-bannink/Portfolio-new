@@ -4,19 +4,28 @@
 <html lang="en">
 
 <head>
+    <!-- Charset declaration for proper encoding -->
     <meta charset="UTF-8">
+    <!-- Linking to the external stylesheet -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Preconnect to Google Fonts for faster loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Importing Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&family=Instrument+Serif&family=Lato&display=swap"
         rel="stylesheet">
+        <!-- External JS file for interactive functions -->
         <script src="/js/script.js"></script>
+        <!-- Page title -->
         <title>Creative Work</title>
 </head>
 
 <body>
-    <header id="projects-header">
+    <!-- Header with logo and navigation -->
+    <header class="projects-header">
+        <!-- Logo linking to the homepage -->
         <a href="index.html"><img src="img/logo-pink.png" alt="Logo pink" class="img-logo pink"></a>
+        <!-- Navigation menu -->
         <nav>
             <ul>
                 <li class="font-serif"><a href="index.html" class="nav-black">Home</a></li>
@@ -28,12 +37,15 @@
             </ul>
         </nav>
     </header>
+    <!-- Main content for creative work page -->
     <main class="projects" >
         <section>
         <div class="projects-title">
             <h1 class="font-serif t-w">My Creative Work</h1>
         </div>
+        <!-- Container for each creative work item -->
         <div class="projects-div flex-c">
+            <!-- Each creative work displayed with a link to Spotify -->
             <div class="bg-p border-radius flex-c cw1" id="cw1">
                 <a href="https://open.spotify.com/album/5Zar7tyJFKoBuNdwoNEiVE?si=EsE3RW75QjmUC2SCs93abQ" class="cw-a">
                     <p class="font-serif box-text1 t-w">14 November 2024</p>
@@ -65,15 +77,19 @@
         </div>
     </section>
     </main>
+    <!-- Footer section with an interactive arrow icon for expanding -->
     <div id="footer-div" class="flex-r bg-g">
         <a href="#footer" onclick="footerOpen()">
+            <!-- Arrow icon for footer expansion -->
             <img src="/img/arrow-icon.svg" id="arrow-icon" alt="arrow icon">
         </a>
     </div>
+    <!-- Footer content with additional links -->
     <footer id="footer">
         <div>
             <a href="index.html"><img src="img/logo-yellow.png" alt="Logo yellow" class="img-logo yellow"></a>
         </div>
+        <!-- Footer navigation -->
         <nav>
             <ul >
                 <li class="font-serif"><a href="index.html" class="footer-text">Home</a></li>

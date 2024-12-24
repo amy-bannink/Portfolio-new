@@ -3,19 +3,28 @@
 <html lang="en">
 
 <head>
+    <!-- Charset declaration for proper encoding -->
     <meta charset="UTF-8">
+    <!-- External CSS file for styling -->  
     <link rel="stylesheet" href="css/style.css">
+    <!-- Preconnect to Google Fonts for faster loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Importing Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&family=Instrument+Serif&family=Lato&display=swap"
         rel="stylesheet">
+        <!-- External JS file for interactive functions -->
         <script src="/js/script.js"></script>
+        <!-- Page title -->
         <title>Contact</title>
 </head>
 
 <body>
+    <!-- Header with logo and navigation -->
     <header>
+        <!-- Logo linking to the homepage -->
         <a href="index.html"><img src="img/logo-pink.png" alt="Logo pink" class="img-logo pink"></a>
+        <!-- Navigation menu -->
         <nav>
             <ul>
                 <li class="font-serif"><a href="index.html">Home</a></li>
@@ -26,23 +35,29 @@
             </ul>
         </nav>
     </header>
+    <!-- Main content for contact page -->
     <main class="contact-page flex-r">
+        <!-- Left section: Introduction text and contact icons -->
         <section class="contact c-left bg-b flex-c">
             <h1 class="font-serif contact-title t-w">Contact</h1>
             <p class="font-serif t-w c-left-text">Please feel free to contact me with any questions you might have. You can send me a message on LinkedIn or send me an e-mail. Furthermore you can follow my projects on github or follow me on LinkedIn. I hope to see you there!</p>
+            <!-- Container for contact icons -->
             <div id="contact-icons" class="flex-r">
                 <img src="/img/contact-icon.svg" alt="contact icon" class="large-icon">
                 <img src="img/contact-icon2.svg" alt="contact icon" class="large-icon">
             </div>
         </section>
+        <!-- Right section: Contact methods with links to social platforms -->
         <section class="contact c-right flex-w">
             <h1 class="font-serif contact-title contact-right t-b">Let's Connect</h1>
+                <!-- Contact method: Location -->
                 <div class="contact-layout flex-r">
                     <a href="http://maps.google.com/?q=nijmegen,thenetherlands">
                         <img src="img/location-icon.svg" alt="location icon" class="contact-icons border-radius">
                     </a>
                         <p class="font-serif contact-p">Nijmegen</p>
                 </div>
+                <!-- Contact method: GitHub -->
                 <div class="contact-layout flex-r">
                     <a href="https://github.com/amy-bannink">
                         <img src="img/github-icon.svg" alt="github icon" class="contact-icons border-radius">
@@ -50,6 +65,7 @@
 
                         <p class="font-serif contact-p">Amy Bannink</p>
                 </div>
+                <!-- Contact method: LinkedIn -->
                 <div class="contact-layout flex-r">
                     <a href="https://www.linkedin.com/in/amy-bannink-a68a76ab/">
                         <img src="img/linkedin-icon.svg" alt="linkedin icon" class="contact-icons border-radius">
@@ -57,6 +73,7 @@
 
                         <p class="font-serif contact-p">Amy Bannink</p>
                 </div>               
+                <!-- Contact method: Email -->
                 <div class="contact-layout flex-r">
                     <a href="mailto:1215410@student.roc-nijmegen.nl">
                         <img src="img/email-icon.svg" alt="email icon" class="contact-icons border-radius">
@@ -66,15 +83,19 @@
                 </div>            
         </section>
     </main>
+    <!-- Footer section with an interactive arrow icon for expanding -->
     <div id="footer-div" class="flex-r bg-g">
         <a href="#footer" onclick="footerOpen()">
+            <!-- Arrow icon for footer expansion -->
             <img src="/img/arrow-icon.svg" id="arrow-icon" alt="arrow icon">
         </a>
     </div>
+    <!-- Footer content with additional links -->
     <footer id="footer">
         <div>
             <a href="index.html"><img src="img/logo-yellow.png" alt="Logo yellow" class="img-logo yellow"></a>
         </div>
+        <!-- Footer navigation -->
         <nav>
             <ul>
                 <li class="font-serif"><a href="index.html" class="footer-text">Home</a></li>
