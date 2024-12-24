@@ -12,7 +12,7 @@ function footerOpen() {
         document.getElementById("footer-div").style.backgroundColor = '#010101';
         // document.getElementById("footer-div-projects").style.backgroundColor = '#010101';
         document.getElementById("arrow-icon").style.transform = 'rotate(270deg)';
-        document.getElementById("arrow-icon").src = 'img/arrow-icon-yellow.svg';
+        document.getElementById("arrow-icon").src = '../img/arrow-icon-yellow.svg';
         
         for (let i = 0; i < footerText.length; i++){
             footerText[i].style.color = '#FACF0F';
@@ -27,7 +27,7 @@ function footerOpen() {
             footerText[i].style.color = '#FBFBFB';
         }
         document.getElementById("arrow-icon").style.transform = 'rotate(90deg)';
-        document.getElementById("arrow-icon").src = 'img/arrow-icon.svg';
+        document.getElementById("arrow-icon").src = '../img/arrow-icon.svg';
         document.getElementById("footer-div").style.backgroundColor = '#ACACAC';
 
     }
