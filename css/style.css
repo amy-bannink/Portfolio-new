@@ -74,15 +74,6 @@ nav ul li a:hover{
     position: sticky;
 }
 
-/* list item styling for "About" section */
-.about-li{
-    list-style-type: none;
-}
-
-.about-li:hover{
-    transform: scale(1.1);
-    transition: all 0.5s;
-}
 
 /* commonly used */
 
@@ -95,7 +86,7 @@ nav ul li a:hover{
     display: flex;
 }
 
-/* Typography settings */
+/* Commonly used text settings */
 .font-serif{
     font-family: "Instrument Serif", serif;
 }
@@ -103,7 +94,6 @@ nav ul li a:hover{
 h1{
     font-size: 140px;
     font-weight: 400;
-    /* veranderen naar 80px  */
 }
 
 h2{
@@ -150,14 +140,7 @@ p{
     color: #ACACAC;
 }
 
-/* Spacing  */
-.padding-bottom{
-    padding-bottom: 100px;
-}
 
-.margin-bottom{
-    margin-bottom: 80px;
-}
 
 /* text */
 
@@ -168,26 +151,10 @@ p{
     padding-top: 80px;    
 }
 
-/* Contact page title styling */
-.contact-title{
-    font-size: 80px;
-    margin-top: 80px;
-}
-
-/* Contact right section styling */
-.contact-right{
-    padding-left: 1.5vw;
-    margin-bottom: 20px;
-}
-
 /* Contact paragraph styling */
 .contact-p{
     margin-left: 2vw;
     font-weight: 600;
-}
-
-.contact-layout{
-    align-items: center;
 }
 
 /* About page left title */
@@ -251,6 +218,8 @@ p{
 .box-text2{
     margin-left: 15px;
 }
+
+
 
 /* images */
 
@@ -316,6 +285,8 @@ p{
     gap: 50px;
 }
 
+
+
 /* Pages */
 
 /* Page-specific styles for projects, home, and contact */
@@ -340,7 +311,6 @@ padding-bottom: 100px;
 
 .contact{
     height: 106.8%;
-    /* justify-content: center; */
 }
 
 .c-left{
@@ -357,8 +327,21 @@ padding-bottom: 100px;
     width: 58.5vw;
     background-image: url("../img/contact-bg-final.png");
     background-size: 100% 100%;
-    /* justify-content: flex-start; */
     padding-left: 5vw;
+}
+
+.contact-title{
+    font-size: 80px;
+    margin-top: 80px;
+}
+
+.contact-right{
+    padding-left: 1.5vw;
+    margin-bottom: 20px;
+}
+
+.contact-layout{
+    align-items: center;
 }
 
 /* About Me section layout and styling */
@@ -395,13 +378,23 @@ padding-bottom: 100px;
 }
 
 .about-div{
-    /* width: 20vw; */
     padding: 10px;
     padding-left: 25px;
     border-style: solid;
     border-width: 5px;
 }
 
+/* list item styling for "About" section */
+.about-li{
+    list-style-type: none;
+}
+
+.about-li:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+/* About me divs styling */
 #location-div{
     margin-top: 20px;
 }
@@ -462,7 +455,6 @@ border-color: #DD7CA0;
     width: 22vw;
     height: 120px;
     align-items: flex-end;
-    /* background-image: url("/img/mastermind2-img.jpg"); */
 }
 
 #cont2{
@@ -521,4 +513,13 @@ border-color: #DD7CA0;
 
 .cw1{
     background-image: url("/img/cw1.png");
+}
+
+/* Spacing  */
+.padding-bottom{
+    padding-bottom: 100px;
+}
+
+.margin-bottom{
+    margin-bottom: 80px;
 }
